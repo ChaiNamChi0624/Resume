@@ -1,23 +1,49 @@
 <html>
-		<style>
-			img {
-				border-radius: 50%;
-				border-color: #AAAAAA;
-				border-style: solid;
-				width: 200px;
-				height: 200px;
-				margin-left: 50px;
-			}
-			
-			p.a{
-				font-family: Verdana;
-			}
-		</style>
-			
-			<img src="Chai Nam Chi.jpg">
-			<p style="text-indent: 75px;font-size:23px" class="a">Chai Nam Chi</p>
-			<p style="text-indent: 50px" class="a">A second-year CS student.</p>
-			<p style="text-indent: 35px"class="a">University of Malaya, Malaysia</p>
-			<p style="text-indent: 120px"class="a"><a href = "mailto:lebronchai0624@gmail.com">Email</a></p>
-		
-</html> 
+  <style>
+    .center {
+      width: 230px;
+      height: 230px;
+      border-radius: 50%;
+      border: 2px solid #aaaaaa;
+      margin-left: 15%;
+      margin-right: 15%;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .center img {
+      width: 100%;
+      height: auto;
+      max-width: none;
+      max-height: none;
+    }
+
+    p.a {
+      font-family: Verdana;
+    }
+  </style>
+
+  <div class="center">
+    <img src="Chai Nam Chi.jpg" alt="Chai Nam Chi" />
+  </div>
+  <p
+    style="
+      margin-left: 5%;
+      margin-right: 5%;
+      text-align: center;
+      font-size: 23px;
+    "
+    class="a"
+  >
+    Chai Nam Chi
+  </p>
+  <p style="margin-left: 5%; margin-right: 5%; text-align: center" class="a">
+    BCS (Information Systems) @ University Malaya | Full Stack Web Development
+    Intern @ iFAST Service Centre Sdn. Bhd.
+  </p>
+  <p style="margin-left: 5%; margin-right: 5%; text-align: center" class="a">
+    <a href="mailto:lebronchai0624@gmail.com">Email</a>
+  </p>
+</html>
